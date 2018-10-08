@@ -1,0 +1,11 @@
+C:\CIDM3312\InClass\Nickname\bin\Debug\netcoreapp2.1\Nickname.deps.json
+C:\CIDM3312\InClass\Nickname\bin\Debug\netcoreapp2.1\Nickname.runtimeconfig.json
+C:\CIDM3312\InClass\Nickname\bin\Debug\netcoreapp2.1\Nickname.runtimeconfig.dev.json
+C:\CIDM3312\InClass\Nickname\bin\Debug\netcoreapp2.1\Nickname.dll
+C:\CIDM3312\InClass\Nickname\bin\Debug\netcoreapp2.1\Nickname.pdb
+C:\CIDM3312\InClass\Nickname\obj\Debug\netcoreapp2.1\Nickname.csprojAssemblyReference.cache
+C:\CIDM3312\InClass\Nickname\obj\Debug\netcoreapp2.1\Nickname.csproj.CoreCompileInputs.cache
+C:\CIDM3312\InClass\Nickname\obj\Debug\netcoreapp2.1\Nickname.AssemblyInfoInputs.cache
+C:\CIDM3312\InClass\Nickname\obj\Debug\netcoreapp2.1\Nickname.AssemblyInfo.cs
+C:\CIDM3312\InClass\Nickname\obj\Debug\netcoreapp2.1\Nickname.dll
+C:\CIDM3312\InClass\Nickname\obj\Debug\netcoreapp2.1\Nickname.pdb

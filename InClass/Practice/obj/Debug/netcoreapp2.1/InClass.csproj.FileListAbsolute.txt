@@ -1,0 +1,11 @@
+C:\CIDM 3312\InClass\bin\Debug\netcoreapp2.1\InClass.deps.json
+C:\CIDM 3312\InClass\bin\Debug\netcoreapp2.1\InClass.runtimeconfig.json
+C:\CIDM 3312\InClass\bin\Debug\netcoreapp2.1\InClass.runtimeconfig.dev.json
+C:\CIDM 3312\InClass\bin\Debug\netcoreapp2.1\InClass.dll
+C:\CIDM 3312\InClass\bin\Debug\netcoreapp2.1\InClass.pdb
+C:\CIDM 3312\InClass\obj\Debug\netcoreapp2.1\InClass.csprojAssemblyReference.cache
+C:\CIDM 3312\InClass\obj\Debug\netcoreapp2.1\InClass.csproj.CoreCompileInputs.cache
+C:\CIDM 3312\InClass\obj\Debug\netcoreapp2.1\InClass.AssemblyInfoInputs.cache
+C:\CIDM 3312\InClass\obj\Debug\netcoreapp2.1\InClass.AssemblyInfo.cs
+C:\CIDM 3312\InClass\obj\Debug\netcoreapp2.1\InClass.dll
+C:\CIDM 3312\InClass\obj\Debug\netcoreapp2.1\InClass.pdb

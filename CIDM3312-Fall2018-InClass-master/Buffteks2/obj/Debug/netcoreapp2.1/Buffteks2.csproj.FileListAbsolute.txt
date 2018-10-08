@@ -1,0 +1,11 @@
+C:\CIDM3312\InClass\Buffteks2\bin\Debug\netcoreapp2.1\Buffteks2.deps.json
+C:\CIDM3312\InClass\Buffteks2\bin\Debug\netcoreapp2.1\Buffteks2.runtimeconfig.json
+C:\CIDM3312\InClass\Buffteks2\bin\Debug\netcoreapp2.1\Buffteks2.runtimeconfig.dev.json
+C:\CIDM3312\InClass\Buffteks2\bin\Debug\netcoreapp2.1\Buffteks2.dll
+C:\CIDM3312\InClass\Buffteks2\bin\Debug\netcoreapp2.1\Buffteks2.pdb
+C:\CIDM3312\InClass\Buffteks2\obj\Debug\netcoreapp2.1\Buffteks2.csprojAssemblyReference.cache
+C:\CIDM3312\InClass\Buffteks2\obj\Debug\netcoreapp2.1\Buffteks2.csproj.CoreCompileInputs.cache
+C:\CIDM3312\InClass\Buffteks2\obj\Debug\netcoreapp2.1\Buffteks2.AssemblyInfoInputs.cache
+C:\CIDM3312\InClass\Buffteks2\obj\Debug\netcoreapp2.1\Buffteks2.AssemblyInfo.cs
+C:\CIDM3312\InClass\Buffteks2\obj\Debug\netcoreapp2.1\Buffteks2.dll
+C:\CIDM3312\InClass\Buffteks2\obj\Debug\netcoreapp2.1\Buffteks2.pdb
