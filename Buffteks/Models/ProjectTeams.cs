@@ -12,5 +12,9 @@ namespace Buffteks.Models
         //Connecting the PK/FK Project ID
         public int ProjectID{ get; set; }
         public Project Project { get; set; }
+
+        public override string ToString(){
+            return "Project Teams: " + this.TeamID + " - " + this.ProjectID;
+        }
     }
 }

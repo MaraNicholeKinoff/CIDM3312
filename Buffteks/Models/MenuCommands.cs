@@ -11,7 +11,7 @@ namespace Buffteks.Models
         public static void CreateRecord() {            
             bool exitCreateMenu = false;
             while (exitCreateMenu == false) {
-                Console.WriteLine("Create Menu: s (create student), f (create faculty), c (create client), t (create team), or e (exit menu): ");
+                Console.WriteLine("Create Menu: s (student), f (faculty), c (client), t (team), o (organization), or e (exit menu): ");
                 string choice = Console.ReadLine();
                 switch (choice) {
                     case "s":  
@@ -22,6 +22,9 @@ namespace Buffteks.Models
                         break;
                     case "c":
                         CreateCommands.CreateClient();
+                        break;
+                    case "o":
+                        CreateCommands.CreateOrganization();
                         break;
                     case "t":
                         CreateCommands.CreateTeam();
@@ -38,11 +41,11 @@ namespace Buffteks.Models
         public static void ReadRecord() {            
             bool exitReadMenu = false;     
             while (exitReadMenu == false) {
-                Console.WriteLine("Read Menu: s (read student), f (read faculty), c (read client), t (read team), or e (exit menu): ");
+                Console.WriteLine("Read Menu: s (student), f (faculty), c (client), t (team), o (organization), or e (exit menu): ");
                 string choice = Console.ReadLine();
                 switch (choice) {
                     case "s":  
-                        Console.WriteLine("View all student records (a), find a student record (f), or exit (e):");
+                        Console.WriteLine("View all students (a), find a student (f), or exit (e):");
                         string readsChoice = Console.ReadLine();                    
                         switch (readsChoice) {
                             case "a":
@@ -57,7 +60,7 @@ namespace Buffteks.Models
                         }
                         break;
                     case "f":
-                        Console.WriteLine("View all faculty records (a), find a faculty record (f), or exit (e):");
+                        Console.WriteLine("View all advisors (a), find an advisor (f), or exit (e):");
                         string readfChoice = Console.ReadLine();
                         switch (readfChoice) {
                             case "a":
@@ -72,7 +75,7 @@ namespace Buffteks.Models
                         }
                         break;
                     case "c":
-                        Console.WriteLine("View all client records (a), find a client record (f), or exit (e):");
+                        Console.WriteLine("View all clients (a), find a client (f), or exit (e):");
                         string readcChoice = Console.ReadLine();
                         switch (readcChoice) {
                             case "a":
@@ -86,8 +89,23 @@ namespace Buffteks.Models
                                 break;                            
                         }
                         break;
+                    case "o":
+                        Console.WriteLine("View all organizations (a), find an organizaion (f), or exit (e):");
+                        string readoChoice = Console.ReadLine();
+                        switch (readoChoice) {
+                            case "a":
+                                ReadCommands.ReadAllOrganizationRecords();
+                                break;
+                            case "f":
+                                ReadCommands.FindOrganizationRecord();
+                                break;
+                            default:
+                                Console.WriteLine("Invalid choice. Try again.");
+                                break;                            
+                        }
+                        break;
                     case "t":
-                        Console.WriteLine("View all team records (a), find a team record (f), or exit (e):");
+                        Console.WriteLine("View all teams (a), find a team (f), or exit (e):");
                         string readtChoice = Console.ReadLine();
                         switch (readtChoice) {
                             case "a":
@@ -113,7 +131,7 @@ namespace Buffteks.Models
         public static void UpdateRecord() {            
             bool exitUpdateMenu = false;
             while (exitUpdateMenu == false) {
-                Console.WriteLine("Update Menu: s (update student), f (update faculty), c (update client), or e (exit menu): ");
+                Console.WriteLine("Update Menu: s (student), f (faculty), c (client), o (organization), or e (exit menu): ");
                 string choice = Console.ReadLine();
                 switch (choice) {
                     case "s":                        
@@ -123,6 +141,9 @@ namespace Buffteks.Models
                         Console.WriteLine("Sorry! This function isn't ready yet!");
                         break;
                     case "c":
+                        Console.WriteLine("Sorry! This function isn't ready yet!");
+                        break;
+                    case "o":
                         Console.WriteLine("Sorry! This function isn't ready yet!");
                         break;
                     case "e":
@@ -137,7 +158,7 @@ namespace Buffteks.Models
         public static void DeleteRecord() {            
             bool exitDeleteMenu = false;
             while (exitDeleteMenu == false) {
-                Console.WriteLine("Delete Menu: s (delete student), f (delete faculty), c (delete client), or e (exit menu): ");
+                Console.WriteLine("Delete Menu: s (student), f (faculty), c (client), o (organization), or e (exit menu): ");
                 string choice = Console.ReadLine();
                 switch (choice) {
                     case "s":
@@ -147,6 +168,9 @@ namespace Buffteks.Models
                         Console.WriteLine("Sorry! This function isn't ready yet!");
                         break;
                     case "c":
+                        Console.WriteLine("Sorry! This function isn't ready yet!");
+                        break;
+                    case "o":
                         Console.WriteLine("Sorry! This function isn't ready yet!");
                         break;
                     case "e":

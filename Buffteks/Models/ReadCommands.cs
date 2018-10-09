@@ -74,5 +74,18 @@ namespace Buffteks.Models
         public static void FindStudentRecord() {
             Console.WriteLine("Sorry! This function isn't ready yet!");
         }
+
+        public static void ReadAllOrganizationRecords() {
+            using (var context = new EFIADBContext()) {
+                var orgs = context.Organization.ToList();
+                foreach(Organization o in orgs)
+                {
+                    Console.WriteLine(o);
+                }
+            }
+        }
+        public static void FindOrganizationRecord() {
+            Console.WriteLine("Sorry! This function isn't ready yet!");
+        }
     }
 }

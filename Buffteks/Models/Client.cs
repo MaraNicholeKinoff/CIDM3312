@@ -21,5 +21,8 @@ namespace Buffteks.Models
 
         //Company Name
         public int OrganizationID { get; set; }
+        public override string ToString(){
+            return "Client " + this.ClientID + ": " + this.FirstName + " " + this.LastName + " - " + this.OrganizationID;
+        }
     }
 }

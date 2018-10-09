@@ -24,5 +24,9 @@ namespace Buffteks.Models
         //team = FK
         public int TeamID { get; set; }
         public Team Team { get; set; }
+
+        public override string ToString(){
+            return "Project " + this.ProjectID + ": " + this.ProjectName + " - " + this.TeamID;
+        }
     }
 }

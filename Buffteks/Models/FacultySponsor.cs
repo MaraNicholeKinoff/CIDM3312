@@ -21,8 +21,9 @@ namespace Buffteks.Models
 
         //Department Name
         public string DepartmentName { get; set; }
+        
         public override string ToString(){
-            return "Faculty " + this.ID + ": " + this.FirstName + " " + this.LastName + " - " + this.DepartmentName;
+            return "Advisor " + this.ID + ": " + this.FirstName + " " + this.LastName + " - " + this.DepartmentName;
         }
     }
 }

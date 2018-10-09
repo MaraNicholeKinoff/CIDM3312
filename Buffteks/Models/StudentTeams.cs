@@ -17,5 +17,9 @@ namespace Buffteks.Models
 
         //Which students have which roles in the teams
         public string Role { get; set; }
+
+        public override string ToString(){
+            return "Student Teams: " + this.TeamID + " - " + this.StudentID;
+        }
     }
 }

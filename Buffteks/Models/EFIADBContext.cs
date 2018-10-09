@@ -25,6 +25,7 @@ namespace Buffteks.Models
         public DbSet<FacultySponsor> FacultySponsor { get; set; }
         public DbSet<Team> Team { get; set; }
         //public DbSet<StudentTeams> StudentTeams { get; set; }
+        public DbSet<Organization> Organization { get; set; }
     }
 
 }

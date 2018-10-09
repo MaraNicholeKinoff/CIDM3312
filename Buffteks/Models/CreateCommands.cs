@@ -8,6 +8,43 @@ namespace Buffteks.Models
 {
     public class CreateCommands
     {
+        public static void CreateOrganization() {
+            Console.Write("Organization name: ");
+            string orgName = Console.ReadLine();
+            Console.Write("Organization phone number: ");
+            string o_phoneNumber = Console.ReadLine();
+            Console.Write("Organization email: ");
+            string o_email = Console.ReadLine();
+            Console.Write("Organization address (line 1): ");
+            string o_addLine1 = Console.ReadLine();
+            Console.Write("Organization address (line 2): ");
+            string o_addLine2 = Console.ReadLine();
+            Console.Write("Organization address city: ");
+            string o_city = Console.ReadLine();
+            Console.Write("Organization address zipcode: ");
+            string o_zipcode = Console.ReadLine();
+            Console.Write("Organization address state: ");
+            string o_state = Console.ReadLine();
+            using (var context = new EFIADBContext()) {
+                List<Organization> org = new List<Organization>()
+                {
+                    new Organization() 
+                    {
+                        OrganizationName = orgName,
+                        PhoneNumber = o_phoneNumber,
+                        Email = o_email,
+                        AddLine1 = o_addLine1,
+                        AddLine2 = o_addLine2,
+                        City = o_city,
+                        Zipcode = o_zipcode,
+                        State = o_state
+                    }
+                };
+                context.Organization.AddRange(org);                    
+                context.SaveChanges();
+            }
+            Console.WriteLine("Team record added.");
+        }
         public static void CreateTeam() {
             Console.Write("Team name: ");
             string teamName = Console.ReadLine();

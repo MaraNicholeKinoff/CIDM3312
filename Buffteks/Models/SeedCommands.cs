@@ -18,65 +18,7 @@ namespace Buffteks.Models
                 context.Database.EnsureCreated();
             }
 
-            //This opens then closes the connection to the DB, helps security
             using (var context = new EFIADBContext()) {
-                var testStudent0 = new Student {
-                    FirstName = "Mara", 
-                    LastName = "Kinoff", 
-                    PhoneNumber = "XXX-XXX-XXXX", 
-                    Email = "mara@domain.com", 
-                    Major = "CIS" 
-                };
-                //This statement adds the student to the DB
-                context.Student.Add(testStudent0);
-                var testStudent1 = new Student {
-                    FirstName = "Sean", 
-                    LastName = "Kinoff", 
-                    PhoneNumber = "XXX-XXX-XXXX", 
-                    Email = "sean@domain.com", 
-                    Major = "CIS" 
-                };
-                context.Student.Add(testStudent1);
-                //This statement saves any changes to the DB
-                context.SaveChanges();
-            }
-            using (var context = new EFIADBContext()) {
-                var testClient0 = new Client {
-                    FirstName = "John", 
-                    LastName = "Smith", 
-                    PhoneNumber = "XXX-XXX-XXXX", 
-                    Email = "john@domain.com", 
-                    OrganizationID = 1
-                };
-                context.Client.Add(testClient0);
-                var testClient1 = new Client {
-                    FirstName = "Jane", 
-                    LastName = "Smith", 
-                    PhoneNumber = "XXX-XXX-XXXX", 
-                    Email = "jane@domain.com", 
-                    OrganizationID = 2
-                };
-                context.Client.Add(testClient1);                     
-                context.SaveChanges();
-            }
-            using (var context = new EFIADBContext()) {
-                var testSponsor0 = new FacultySponsor {
-                    FirstName = "Jeff", 
-                    LastName = "Babb", 
-                    PhoneNumber = "XXX-XXX-XXXX", 
-                    Email = "jeff@domain.com" 
-                };       
-                context.FacultySponsor.Add(testSponsor0);           
-                context.SaveChanges();
-            }
-            using (var context = new EFIADBContext()) {
-                var testTeam0 = new Team { 
-                    TeamName = "First Team"
-                    // LeaderStudentID = 2
-                };       
-                context.Team.Add(testTeam0);           
-                context.SaveChanges();
-
                 //Creating the list of test students
                 if(!context.Student.Any())
                 {
@@ -173,6 +115,37 @@ namespace Buffteks.Models
                         }
                     };
                     context.Team.AddRange(teams);                    
+                    context.SaveChanges();
+                }
+                //Creating list of organizations
+                if(!context.Organization.Any()) 
+                {
+                    List<Organization> org = new List<Organization>()
+                    {
+                        new Organization() 
+                        {
+                            OrganizationName = "A Company",
+                            PhoneNumber = "012-345-6789",
+                            Email = "acompanyn@email.com",
+                            AddLine1 = "123 West Ave",
+                            AddLine2 = "Suite 101",
+                            City = "Amarillo",
+                            Zipcode = "77777",
+                            State = "TX"
+                        },
+                        new Organization() 
+                        {
+                            OrganizationName = "B Company",
+                            PhoneNumber = "122-333-4444",
+                            Email = "bcompanyn@email.com",
+                            AddLine1 = "123 East Ave",
+                            AddLine2 = "",
+                            City = "Amarillo",
+                            Zipcode = "77777",
+                            State = "TX"
+                        }
+                    };
+                    context.Organization.AddRange(org);                    
                     context.SaveChanges();
                 }
 
