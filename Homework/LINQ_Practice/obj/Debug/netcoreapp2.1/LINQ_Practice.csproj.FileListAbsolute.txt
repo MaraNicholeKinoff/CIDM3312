@@ -1,0 +1,11 @@
+C:\CIDM3312\Homework\LINQ_Practice\obj\Debug\netcoreapp2.1\LINQ_Practice.csprojAssemblyReference.cache
+C:\CIDM3312\Homework\LINQ_Practice\obj\Debug\netcoreapp2.1\LINQ_Practice.csproj.CoreCompileInputs.cache
+C:\CIDM3312\Homework\LINQ_Practice\obj\Debug\netcoreapp2.1\LINQ_Practice.AssemblyInfoInputs.cache
+C:\CIDM3312\Homework\LINQ_Practice\obj\Debug\netcoreapp2.1\LINQ_Practice.AssemblyInfo.cs
+C:\CIDM3312\Homework\LINQ_Practice\bin\Debug\netcoreapp2.1\LINQ_Practice.deps.json
+C:\CIDM3312\Homework\LINQ_Practice\bin\Debug\netcoreapp2.1\LINQ_Practice.runtimeconfig.json
+C:\CIDM3312\Homework\LINQ_Practice\bin\Debug\netcoreapp2.1\LINQ_Practice.runtimeconfig.dev.json
+C:\CIDM3312\Homework\LINQ_Practice\bin\Debug\netcoreapp2.1\LINQ_Practice.dll
+C:\CIDM3312\Homework\LINQ_Practice\bin\Debug\netcoreapp2.1\LINQ_Practice.pdb
+C:\CIDM3312\Homework\LINQ_Practice\obj\Debug\netcoreapp2.1\LINQ_Practice.dll
+C:\CIDM3312\Homework\LINQ_Practice\obj\Debug\netcoreapp2.1\LINQ_Practice.pdb
