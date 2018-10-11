@@ -26,9 +26,16 @@ namespace LINQ_Practice
             FindPractice.Problem5();
 
             //Sort Practice
-
+            SortPractice.Problem1();
+            SortPractice.Problem2();
+            SortPractice.Problem3();
+            SortPractice.Problem4();
+            SortPractice.Problem5();
 
             //Group Practice
+            GroupPractice.Problem1();
+            GroupPractice.Problem2();
+            GroupPractice.Problem3();
         }
     }
 }

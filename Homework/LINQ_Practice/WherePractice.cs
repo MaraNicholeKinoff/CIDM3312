@@ -34,10 +34,10 @@ namespace LINQ_Practice
             //Using Query Syntax
             Console.WriteLine("\nWhere Practice - Problem 3");
             using (var context = new AppDbContext()) {
-                var studentsFilteredLName = from s in context.Student
-                                            where s.LastName[0] >= 'M'
+                var studentsFilteredFName = from s in context.Student
+                                            where s.FirstName[0] >= 'M'
                                             select s;
-                foreach (var s in studentsFilteredLName) {
+                foreach (var s in studentsFilteredFName) {
                     Console.WriteLine(s);
                 }
             }

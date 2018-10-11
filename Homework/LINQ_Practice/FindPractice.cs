@@ -36,6 +36,7 @@ namespace LINQ_Practice
             //Query Syntax
             Console.WriteLine("\nFind Practice - Problem 3");
             using (var context = new AppDbContext()) {
+                var students = context.Student.ToList();
                 var findShortFName = (from s in context.Student
                                             orderby s.FirstName.Length
                                             select s).Take(1);
@@ -45,9 +46,10 @@ namespace LINQ_Practice
             }
         }
         public static void Problem4() {
-            //Query Syntax
+            //Query and Method Syntax
             Console.WriteLine("\nFind Practice - Problem 4");
             using (var context = new AppDbContext()) {
+                var students = context.Student.ToList();
                 var findShortLName = (from s in context.Student
                                             orderby s.LastName.Length
                                             select s).Take(1);
@@ -57,12 +59,12 @@ namespace LINQ_Practice
             }
         }
         public static void Problem5() {
-            //Query Syntax
+            //Query and Method Syntax
             Console.WriteLine("\nFind Practice - Problem 5");
             using (var context = new AppDbContext()) {
+                var students = context.Student.ToList();
                 var findShortLName = (from s in context.Student
-                                            orderby s.LastName.Length ascending
-                                            orderby s.FirstName.Length descending
+                                            orderby s.LastName.Length ascending, s.FirstName.Length descending
                                             select s).Take(1);
                 foreach (var s in findShortLName) {
                     Console.WriteLine(s);
