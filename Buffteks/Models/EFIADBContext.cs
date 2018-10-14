@@ -27,6 +27,14 @@ namespace Buffteks.Models
         //public DbSet<StudentTeams> StudentTeams { get; set; }
         public DbSet<Organization> Organization { get; set; }
         public DbSet<StudentTeams> StudentTeams { get; set; }
+        public DbSet<ClientOrganization> ClientOrganization { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<StudentTeams>()
+                .HasKey(st => new { st.TeamID, st.StudentID });
+            modelBuilder.Entity<ClientOrganization>()
+                .HasKey(co => new { co.ClientID, co.OrganizationID });
+        }
     }
 
 }

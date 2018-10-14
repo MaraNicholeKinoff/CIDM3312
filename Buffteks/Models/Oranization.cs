@@ -5,7 +5,7 @@ namespace Buffteks.Models
     //Table detailing information about the client
     public class Organization
     {
-        public int OrgaizationID { get; set; } 
+        public int OrganizationID { get; set; } 
         //first name
         public string OrganizationName { get; set; }
 
@@ -25,7 +25,7 @@ namespace Buffteks.Models
         //state
         public string State { get; set; }
         public override string ToString(){
-            return "Organization " + this.ID + ": " + this.OrganizationName;
+            return "Organization " + this.OrganizationID + ": " + this.OrganizationName;
         }
     }
 }

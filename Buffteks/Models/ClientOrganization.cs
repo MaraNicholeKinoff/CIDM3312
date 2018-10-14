@@ -13,14 +13,10 @@ namespace Buffteks.Models
         //Connecting the PK/FK Project ID
         public int OrganizationID{ get; set; }
         
-        public Team Team { get; set; }
-        public Student Student { get; set; }
-
-        //Which students have which roles in the teams
-        public string Role { get; set; }
-
+        public Client Client { get; set; }
+        public Organization Organization { get; set; }
         public override string ToString(){
-            return "Student Teams: " + this.TeamID + " - " + this.StudentID;
+            return "Client Organization: " + this.ClientID + " - " + this.OrganizationID;
         }
     }
 }
