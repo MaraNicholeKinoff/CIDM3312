@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mara\\.nuget\\packages\\": {},
+    "C:\\Users\\maram\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\mara\\Documents\\CIDM 3312\\InClass\\InterestRates\\InterestRates\\InterestRates.csproj",
+      "projectUniqueName": "c:\\Users\\maram\\Desktop\\Fall2018\\CIDM3312\\InClass\\InterestRates\\InterestRates\\InterestRates.csproj",
       "projectName": "InterestRates",
-      "projectPath": "c:\\Users\\mara\\Documents\\CIDM 3312\\InClass\\InterestRates\\InterestRates\\InterestRates.csproj",
-      "packagesPath": "C:\\Users\\mara\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\mara\\Documents\\CIDM 3312\\InClass\\InterestRates\\InterestRates\\obj\\",
+      "projectPath": "c:\\Users\\maram\\Desktop\\Fall2018\\CIDM3312\\InClass\\InterestRates\\InterestRates\\InterestRates.csproj",
+      "packagesPath": "C:\\Users\\maram\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\maram\\Desktop\\Fall2018\\CIDM3312\\InClass\\InterestRates\\InterestRates\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maram\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

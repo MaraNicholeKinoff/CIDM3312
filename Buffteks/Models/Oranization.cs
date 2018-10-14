@@ -5,7 +5,7 @@ namespace Buffteks.Models
     //Table detailing information about the client
     public class Organization
     {
-        public int ID { get; set; } 
+        public int OrgaizationID { get; set; } 
         //first name
         public string OrganizationName { get; set; }
 
