@@ -19,12 +19,52 @@ namespace Buffteks.Models
             }
 
             using (var context = new EFIADBContext()) {
-                //Creating the list of test students
-                if(!context.Student.Any())
+                //Creating the list of test student teams
+                if(!context.StudentTeams.Any())
                 {
                     Console.WriteLine("Checking if database exists......");
                     Console.WriteLine("It does not.");
                     Console.WriteLine("Creating database...seeding database...");
+                    List<StudentTeams> steams = new List<StudentTeams>()
+                    {
+                        new StudentTeams() 
+                        {
+                            StudentID = 1,
+                            TeamID = 1,
+                            Role = "Front End Developer"
+                        },
+                        new StudentTeams() 
+                        {
+                            StudentID = 2,
+                            TeamID = 1,
+                            Role = "Coder"
+                        }
+                    };
+                    context.StudentTeams.AddRange(steams);                    
+                    context.SaveChanges();
+                }
+                //Creating the list of test student teams
+                if(!context.ClientOrganization.Any())
+                {
+                    List<ClientOrganization> corgs = new List<ClientOrganization>()
+                    {
+                        new ClientOrganization() 
+                        {
+                            ClientID = 1,
+                            OrganizationID = 1,
+                        },
+                        new ClientOrganization() 
+                        {
+                            ClientID = 2,
+                            OrganizationID = 1,
+                        }
+                    };
+                    context.ClientOrganization.AddRange(corgs);                    
+                    context.SaveChanges();
+                }
+                //Creating the list of test students
+                if(!context.Student.Any())
+                {
                     List<Student> students = new List<Student>()
                     {
                         new Student() 
@@ -150,22 +190,6 @@ namespace Buffteks.Models
                 }
 
             }
-
-            // using (var context = new EFIADBContext()) {
-            //     var testStudentTeam0 = new StudentTeams{ 
-            //         TeamID = 1,
-            //         StudentID = 1,
-            //         Role = "Front End Developer"
-            //     };       
-            //     context.StudentTeams.Add(testStudentTeam0);      
-            //     var testStudentTeam1 = new StudentTeams{ 
-            //         TeamID = 1,
-            //         StudentID = 2,
-            //         Role = "Back End Developer"
-            //     };       
-            //     context.StudentTeams.Add(testStudentTeam1);       
-            //     context.SaveChanges();
-            // }
         }
     }
 }

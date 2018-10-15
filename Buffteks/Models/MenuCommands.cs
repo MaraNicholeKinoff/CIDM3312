@@ -131,7 +131,7 @@ namespace Buffteks.Models
         public static void UpdateRecord() {            
             bool exitUpdateMenu = false;
             while (exitUpdateMenu == false) {
-                Console.WriteLine("Update Menu: s (student), f (faculty), c (client), o (organization), or e (exit menu): ");
+                Console.WriteLine("Update Menu: s (student), f (faculty), c (client), o (organization), co (client-org), st (student-team), or e (exit menu): ");
                 string choice = Console.ReadLine();
                 switch (choice) {
                     case "s":                        
@@ -145,6 +145,12 @@ namespace Buffteks.Models
                         break;
                     case "o":
                         Console.WriteLine("Sorry! This function isn't ready yet!");
+                        break;
+                    case "co":
+                        UpdateCommands.UpdateClientOrganizationRecords();
+                        break;
+                    case "st":
+                        UpdateCommands.UpdateStudentTeamsRecords();
                         break;
                     case "e":
                         exitUpdateMenu = true;
