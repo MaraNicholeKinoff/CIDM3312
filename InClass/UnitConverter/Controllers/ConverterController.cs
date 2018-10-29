@@ -12,7 +12,9 @@ namespace UnitConverter.Controllers
     {
         public string Index(string type, string unitvalue)
         {
-            return $"{type} and {unitvalue}";
+            double val = Convert.ToDouble(unitvalue);
+            val *= 4;
+            return $"{type} and {val}";
         }
     }
 }
