@@ -10,9 +10,9 @@ namespace UnitConverter.Controllers
 {
     public class ConverterController : Controller
     {
-        public IActionResult Index()
+        public string Index(string type, string unitvalue)
         {
-            return View();
+            return $"{type} and {unitvalue}";
         }
     }
 }

@@ -30,3 +30,4 @@ C:\CIDM3312\InClass\UnitConverter\obj\Debug\netcoreapp2.1\UnitConverter.Views.pd
 C:\CIDM3312\InClass\UnitConverter\obj\Debug\netcoreapp2.1\UnitConverter.dll
 C:\CIDM3312\InClass\UnitConverter\obj\Debug\netcoreapp2.1\UnitConverter.pdb
 C:\CIDM3312\InClass\UnitConverter\obj\Debug\netcoreapp2.1\UnitConverter.csproj.CopyComplete
+C:\CIDM3312\InClass\UnitConverter\obj\Debug\netcoreapp2.1\Razor\Views\Converter\index.g.cshtml.cs
