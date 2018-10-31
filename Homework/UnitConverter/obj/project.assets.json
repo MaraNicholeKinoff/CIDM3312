@@ -13570,23 +13570,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mara\\.nuget\\packages\\": {},
+    "C:\\Users\\mk962071\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mara\\Documents\\CIDM3312\\Homework\\UnitConverter\\UnitConverter.csproj",
+      "projectUniqueName": "C:\\CIDM3312\\Homework\\UnitConverter\\UnitConverter.csproj",
       "projectName": "UnitConverter",
-      "projectPath": "C:\\Users\\mara\\Documents\\CIDM3312\\Homework\\UnitConverter\\UnitConverter.csproj",
-      "packagesPath": "C:\\Users\\mara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mara\\Documents\\CIDM3312\\Homework\\UnitConverter\\obj\\",
+      "projectPath": "C:\\CIDM3312\\Homework\\UnitConverter\\UnitConverter.csproj",
+      "packagesPath": "C:\\Users\\mk962071\\.nuget\\packages\\",
+      "outputPath": "C:\\CIDM3312\\Homework\\UnitConverter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mk962071\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
