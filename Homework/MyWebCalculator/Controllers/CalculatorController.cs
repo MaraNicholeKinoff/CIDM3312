@@ -4,12 +4,12 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using _1172018.Models;
+using MyWebCalculator.Models;
 using MathLibrary;
 
-namespace _1172018.Controllers
+namespace MyWebCalculator.Controllers
 {
-    public class ConverterController : Controller
+    public class CalculatorController : Controller
     {
         public string Add(decimal left, decimal right) {
             decimal addResult = MathLibrary.MyMathLib.Add(left, right);
