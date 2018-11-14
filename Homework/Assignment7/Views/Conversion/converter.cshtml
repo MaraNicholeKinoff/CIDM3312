@@ -1,0 +1,14 @@
+@model ConverterViewModel
+
+<form asp-controller="Conversion" asp-action="DoConversion" method="POST">
+        
+    Value to Convert:<br>    
+    <input type="text" asp-for="@Model.ValueToConvert">
+    <br>
+    Conversion Type:<br>
+    <input type="text" asp-for="@Model.ConversionType">
+    <br>  
+    <br>
+    <input type="submit" value="Submit"> 
+
+</form>

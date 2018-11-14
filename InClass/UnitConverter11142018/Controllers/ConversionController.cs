@@ -12,9 +12,19 @@ namespace UnitConverter11142018.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Message"] = "This is the message";
+            ViewData["Message"] = "This is the a message";
             return View();
         }
-        
+        public IActionResult Converter()
+        {
+            
+            return View();
+        }
+        [HttpPost]
+        public IActionResult DoConversion(ConverterViewModel model)
+        {
+            model.ConvertedValue = model.ValueToConvert * model.ValueToConvert;
+            return View(model);
+        }
     }
 }

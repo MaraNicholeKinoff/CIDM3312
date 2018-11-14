@@ -31,3 +31,5 @@ C:\Users\maram\Desktop\Fall2018\CIDM3312\InClass\UnitConverter11142018\obj\Debug
 C:\Users\maram\Desktop\Fall2018\CIDM3312\InClass\UnitConverter11142018\obj\Debug\netcoreapp2.1\UnitConverter11142018.dll
 C:\Users\maram\Desktop\Fall2018\CIDM3312\InClass\UnitConverter11142018\obj\Debug\netcoreapp2.1\UnitConverter11142018.pdb
 C:\Users\maram\Desktop\Fall2018\CIDM3312\InClass\UnitConverter11142018\obj\Debug\netcoreapp2.1\UnitConverter11142018.csproj.CopyComplete
+C:\Users\maram\Desktop\Fall2018\CIDM3312\InClass\UnitConverter11142018\obj\Debug\netcoreapp2.1\Razor\Views\Conversion\converter.g.cshtml.cs
+C:\Users\maram\Desktop\Fall2018\CIDM3312\InClass\UnitConverter11142018\obj\Debug\netcoreapp2.1\Razor\Views\Conversion\doconversion.g.cshtml.cs
