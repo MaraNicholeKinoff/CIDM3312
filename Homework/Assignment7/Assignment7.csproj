@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.All" />
   </ItemGroup>
+
+  <!-- <ItemGroup>
+           <Reference Include="MathLibrary">
+            <hintpath>C:\Users\maram\Desktop\Fall2018\CIDM3312\MathLibrary\bin\Debug\netstandard2.0\MathLibrary.dll</hintpath>
+          </Reference>
+     </ItemGroup> -->
 
 </Project>

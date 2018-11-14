@@ -1,8 +1,14 @@
 @model ConverterViewModel
 
-<h1>Results</h1>
-<p>
-    @Model.ValueToConvert <br>
-    @Model.ConversionType <br>
-    @Model.ConvertedValue <br>
-</p>
+<h1>Conversion Results</h1>
+ <div class="row">
+  <div class="column"></div>
+    <h2>Original Value</h2>
+    <p>@Model.ValueToConvert</p>
+  <div class="column"></div>
+    <h2>Type of Conversion</h2>
+    <p>@Model.ConversionType</p>
+  <div class="column"></div>
+    <h2>Converted Value</h2>
+    <p>@Model.ConvertedValue</p>
+</div> 

@@ -5,10 +5,38 @@
     Value to Convert:<br>    
     <input type="text" asp-for="@Model.ValueToConvert">
     <br>
+    
     Conversion Type:<br>
-    <input type="text" asp-for="@Model.ConversionType">
+    <select type="text" asp-for="@Model.ConversionType"> 
+        <option value="CtoF"> Celcius to Fahrenheit</option>
+        <option value="CtoK"> Celcius to Kelvin</option>
+        <option value="FtoC"> Fahrenheit to Celcius</option>
+        <option value="FtoK"> Fahrenheit to Kelvin</option>
+        <option value="KtoF"> Kelvin to Fahrenheit</option>
+        <option value="KtoC"> Kelvin to Celcius</option>
+        <option value="MtoF"> Meters to Feet</option>
+        <option value="MtoY"> Meters to Yards</option>
+        <option value="FtoM"> Feet to Meters</option>
+        <option value="FtoY"> Feet to Yards</option>
+        <option value="YtoF"> Yards to Feet</option>
+        <option value="YtoM"> Yards to Meters</option>
+        <option value="OtoP"> Ounces to Pounds</option>
+        <option value="OtoG"> Ounces to Grams</option>
+        <option value="OtoKG"> Ounces to Kilograms</option>
+        <option value="PtoO"> Pounds to Ounces</option>
+        <option value="PtoG"> Pounds to Grams</option>
+        <option value="PtoKG"> Pounds to Kilograms</option>
+        <option value="GtoO"> Grams to Ounces</option>
+        <option value="GtoP"> Grams to Pounds</option>
+        <option value="GtoKG"> Grams to Kilograms</option>
+        <option value="KGtoO"> Kilograms to Ounces</option>
+        <option value="KGtoP"> Kilograms to Pounds</option>
+        <option value="KGtoG"> Kilograms to Grams</option>
+    </select>
+
     <br>  
     <br>
+
     <input type="submit" value="Submit"> 
 
 </form>
