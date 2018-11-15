@@ -1,0 +1,11 @@
+@{
+    Layout = null;
+}
+
+<h1>Floor Result</h1>
+<p>@ViewData["FloorResult"]</p>
+
+@{
+    double num = Convert.ToDouble(ViewData["Num"]);
+    double result = Math.Round((Math.Floor(num)),2);
+}

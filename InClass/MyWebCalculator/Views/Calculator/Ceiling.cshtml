@@ -1,0 +1,11 @@
+@{
+    Layout = null;
+}
+
+<h1>Ceiling Result</h1>
+<p>@ViewData["CeilingResult"]</p>
+
+@{
+    double num = Convert.ToDouble(ViewData["Num"]);
+    double result = Math.Round((Math.Ceiling(num)),2);
+}

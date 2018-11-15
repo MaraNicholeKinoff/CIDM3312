@@ -1,0 +1,12 @@
+@{
+    Layout = null;
+}
+
+<h1>Power Result</h1>
+<p>@ViewData["PowerResult"]</p>
+
+@{
+    double num = Convert.ToDouble(ViewData["Num"]);
+    double power = Convert.ToDouble(ViewData["Power"]);
+    double result = Math.Round((Math.Pow(num, power)),2);
+}

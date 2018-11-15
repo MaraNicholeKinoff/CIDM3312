@@ -1,0 +1,12 @@
+@{
+    Layout = null;
+}
+
+<h1>Division Result</h1>
+<p>@ViewData["DivisionResult"]</p>
+
+@{
+    double left = Convert.ToDouble(ViewData["Left"]);
+    double right = Convert.ToDouble(ViewData["Right"]);
+    double result = Math.Round((left / right),2);
+}
